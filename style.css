@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  background: #f4f4f4;
+  transition: 0.5s;
+}
+
+/* DARK MODE */
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.dark-mode .project-card,
+.dark-mode .certificate-card {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 40px;
+}
+
+/* PROFILE */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/* NAVBAR */
+nav {
+  background: #2c3e50;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* SECTIONS */
+.section {
+  padding: 40px;
+}
+
+/* SKILLS */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: #2575fc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+/* CARDS */
+.project-card, .certificate-card {
+  background: white;
+  padding: 15px;
+  margin: 10px auto;
+  width: 60%;
+  box-shadow: 0px 0px 10px gray;
+  transition: 0.3s;
+}
+
+.project-card:hover, .certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px 20px;
+  background: white;
+  color: #2575fc;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.mode-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 8px 12px;
+}
+
+/* SOCIAL ICONS */
+.social a {
+  font-size: 25px;
+  margin: 10px;
+  color: white;
+}
